@@ -16,8 +16,8 @@ return (NULL);
 new_root = tree->right;
 tree->right = new_root->left;
 
- if (new_root->left != NULL)
- new_root->left->parent = tree;
+if (new_root->left != NULL)
+new_root->left->parent = tree;
 
 new_root->parent = tree->parent;
 tree->parent = new_root;
