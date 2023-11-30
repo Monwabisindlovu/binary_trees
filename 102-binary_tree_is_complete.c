@@ -34,7 +34,8 @@ return (binary_tree_is_complete_recursive(tree, index, size, &is_leaf));
 }
 
 /**
- * binary_tree_is_complete_recursive - Recursively checks if a binary tree is complete
+ * binary_tree_is_complete_recursive - Recursively
+ * checks if a binary tree is complete
  * @tree: Pointer to the root node of the tree to check
  * @index: Index of the current node
  * @size: Size of the binary tree
@@ -42,7 +43,8 @@ return (binary_tree_is_complete_recursive(tree, index, size, &is_leaf));
  *
  * Return: 1 if the tree is complete, 0 otherwise
  */
-int binary_tree_is_complete_recursive(const binary_tree_t *tree, size_t index, size_t size, int *is_leaf)
+int binary_tree_is_complete_recursive(const binary_tree_t *tree,
+size_t index, size_t size, int *is_leaf)
 {
 if (tree == NULL)
 return (1);
